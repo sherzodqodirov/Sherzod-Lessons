@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:NotoSanns-light ;
+    src: url(fonts/NotoSansDisplay_SemiCondensed-Light.ttf);
+}
+ @font-face {
+     font-family:NotoSanns-Regular ;
+     src: url(fonts/NotoSansDisplay_SemiCondensed-Regular.ttf);
+ }
+body{
+    font-family: NotoSanns-light;
+    background-image: linear-gradient(to left, rgb(106, 243, 106) ,white);
+}
+h2:nth-child(2){
+    font-family: NotoSanns-Regular;
+}
+ul{
+    background-color: lightblue;
+}
+ul li {
+display: inline-block;
+padding: 20px 10px;
+}
+ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+ul li:hover{
+    background-color: silver;
+    
+}
+ul li:hover .logo{
+    background-color: blue;
+    color: rgb(247, 242, 243);
+}
+.container{
+    width: 1200px;
+    min-height: 400px;
+    margin: 20px  auto;
+    
+    
+}
+.col{
+    width: 25%;
+    min-height: 200px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    
+}
