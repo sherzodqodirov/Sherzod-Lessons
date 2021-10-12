@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 100px auto;
+    box-sizing: border-box;
+
+}
+.col{
+   width: 30%;
+   min-height: 300px;
+   box-shadow: rgba(0, 1, 5, 0.50) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;/* soya*/
+   box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.row{
+    display: flex;/* bir qotarga joylaydi*/
+    /* justify-content: space-between; qutuni ichidagi
+     rasimni teng orasini ochadi */
+     /* justify-content: center; ikkita chekadagi bosh joylarni teng taqsimlaydi */
+     /* justify-content: flex-start; */
+     /* justify-content: flex-end; */
+     /* justify-content: unset; ozgarmaydi*/
+      /* justify-content: space-around;  */
+     justify-content: space-evenly;
+     align-items: center;/* bir oqda joylaydi cutilarni*/
+    }
+    .col:nth-child(2){
+        height: 50px;
+    }
+    .col:nth-child(2) img{
+        width: 50%;
+    }
+    ul{
+        box-shadow: rgba(0, 1, 5, 0.50) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    }
+    ul li{
+        display: inline-block;
+        padding: 20px 30px;
+    }
+    body{
+        height: 3000px;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        /*right: 0;
+        bottom: 0;
+        left: 0;*/
+        width: 100%;
+        background-color: white;
+    }

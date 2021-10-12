@@ -12,8 +12,7 @@
  }
 body{
     font-family: NotoSanns-light;
-    background-image: linear-gradient(to left, rgb(106, 243, 106) ,white);
-}
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);}
 h2:nth-child(2){
     font-family: NotoSanns-Regular;
 }
