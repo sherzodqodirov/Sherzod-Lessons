@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.conteanir{
+    width: 1200px;
+    margin: 50px auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col{
+    margin-bottom: 50px;
+    width: 30%;
+    box-shadow: rgb(0, 0, 0,0.35)0px 5px 15px ;
+    overflow: hidden;
+
+}
+.col img{
+    width: 100%;
+    transition: 1.5s;
+}
+.col-1:hover img{
+    /*transform: scaleX(1.5);
+    transform: scaleY(1.5);
+    transform: scaleZ(1.5);*/
+    transform: scale(1.5);
+}
+.col-2:hover img{
+ /* transform: translateX(30px);
+  transform: translateX(-30px);
+  transform: translateY(30px);*/
+  transform: translateY(30px);
+}
+.col-3:hover img{
+    /*transform: rotateX();
+    transform: rotateY();*/
+    transform: rotateZ(360deg);
+}
+.col-4:hover img{
+    transform: skew(45deg);
+  /*  transform: skewX(45deg);
+    transform: skewY(45deg);
+    transform: skewZ(45deg);*/
+}
+.col-5:hover img{
+    transform: rotateZ(45deg);
+}
+.col-6:hover img{
+    transform: rotateZ(45deg) scale(1.2) translate(50px);
+}

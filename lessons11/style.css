@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sky{
+    width: 100%;
+    height: 70vh;
+    background-image: url(img/osmon.png);
+}
+.groos{
+    width: 100%;
+    height: 30vh;
+    background-color: green;
+    
+}
