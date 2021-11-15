@@ -1,0 +1,25 @@
+body {
+  background-color: lightblue;
+  color: blue;
+}
+
+body section {
+  background-color: silver;
+  padding: 100px 0;
+}
+
+body section .container {
+  border: 1px solid black;
+}
+
+body section .container .row .col-3 h3 {
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: green;
+}
+
+body section .container .row .col-3 .coustem-btn {
+  background-color: brown;
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */

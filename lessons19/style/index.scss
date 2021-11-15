@@ -1,0 +1,26 @@
+$color1:green;
+body{
+    background-color: lightblue;
+    color: blue;
+    section{
+        background-color: silver;
+        padding: 100px 0;
+        .container{
+            border: 1px solid black;
+            .row{
+                .col-3{
+                    
+                    h3{
+                        font-size: 25px;
+                        letter-spacing: 5px;
+                        color:$color1 ;
+                    }
+                .coustem-btn{
+                    background-color: brown;
+                    color: white;
+                }
+                  }
+            }
+        }
+    }
+}
