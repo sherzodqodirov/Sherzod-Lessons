@@ -1,0 +1,21 @@
+body{
+    background-color: silver;
+    section{
+        .container{
+            padding-top: 100px;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: red;
+      section{
+          .container{
+              padding-top: 25px;
+          }
+      }
+    }
+  }

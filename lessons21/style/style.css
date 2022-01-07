@@ -1,0 +1,17 @@
+body {
+  background-color: silver;
+}
+
+body section .container {
+  padding-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+  body section .container {
+    padding-top: 25px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
